@@ -27,7 +27,7 @@ const logResultInTerminal = (result) => {
     const { download, upload, ping, packetLoss } = result;
     const downloadMbps = (download.bandwidth / 125000).toFixed(2); // Convert bps to Mbps
     const uploadMbps = (upload.bandwidth / 125000).toFixed(2);     // Convert bps to Mbps
-    const {latency, jitter} = ping
+    const { latency, jitter } = ping
 
     console.log(chalk.bold('\nNetwork Stats:'));
     console.log(`- ${chalk.bold('Download Speed')}: ${getColor(downloadMbps, thresholds.speed, true)(`${downloadMbps} Mbps`)}`);
