@@ -14,5 +14,14 @@
     "commander": "^12.1.0",
     "speedtest-net": "^2.2.0"
   },
-  "author": "Shubham Singodiya <singodiyashubham@gmail.com>"
+  "author": "Shubham Singodiya <singodiyashubham@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singodiyashubham87/netcheck-cli.git"
+  },
+  "homepage": "https://github.com/singodiyashubham87/netcheck-cli#readme",
+  "bugs": {
+    "url": "https://github.com/singodiyashubham87/netcheck-cli/issues"
+  }
 }
