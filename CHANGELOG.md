@@ -1,6 +1,10 @@
 # Changelog
 
-## [2.0.1] - Minor Update
+## [2.2.0] - Minor Release
+#### Changed
+- Updated email in package.json file
+
+## [2.1.0] - Minor Update
 ### Changed
 - Add keywords for npm package
 
