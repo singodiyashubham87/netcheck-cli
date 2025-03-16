@@ -1,5 +1,5 @@
 {
-  "name": "netcheck-cli",
+  "name": "@master/netcheck",
   "version": "2.2.0",
   "main": "dist/index.js",
   "type": "module",
