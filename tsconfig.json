@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",           // Compatible with Node.js 18
+    "module": "ESNext",           // Use ES Modules instead of CommonJS
+    "outDir": "./dist",           // Output compiled JS to dist folder
+    "rootDir": "./",              // Source files root
+    "strict": true,               // Enable strict type checking
+    "esModuleInterop": true,      // Improve interop with CommonJS (optional with ESM)
+    "moduleResolution": "node",   // Use Node.js module resolution for ESM
+    "skipLibCheck": true,         // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true    // Allow importing JSON files (if needed)
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}

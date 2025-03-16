@@ -1,16 +1,16 @@
 {
   "name": "netcheck-cli",
   "version": "1.0.2",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "netcheck": "index.js"
+    "netcheck": "./dist/index.js"
   },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "chalk": "^5.3.0",
+    "chalk": "^5.4.1",
     "commander": "^12.1.0",
     "speedtest-net": "^2.2.0"
   },
@@ -23,5 +23,10 @@
   "homepage": "https://github.com/singodiyashubham87/netcheck-cli#readme",
   "bugs": {
     "url": "https://github.com/singodiyashubham87/netcheck-cli/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/speedtest-net": "^2.1.5",
+    "typescript": "^5.8.2"
   }
 }
