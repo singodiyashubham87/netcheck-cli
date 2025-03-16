@@ -1,8 +1,13 @@
 # Changelog
 
+## [2.0.1] - Minor Update
+### Changed
+- Add keywords for npm package
+
 ## [2.0.0] - Major Release
 ### Changed
 - Moved the entire project from JavaScript to TypeScript for better type safety and maintainability.
+- Updated CLI option from `--server` to `--server-id` for specifying a custom test server ID.
 
 ## [1.0.1] - Patch Fix
 ### Fixed

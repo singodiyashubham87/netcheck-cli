@@ -28,5 +28,14 @@
     "@types/node": "^22.13.10",
     "@types/speedtest-net": "^2.1.5",
     "typescript": "^5.8.2"
-  }
+  },
+  "keywords": [
+    "network",
+    "speedtest",
+    "latency",
+    "jitter",
+    "packet loss",
+    "cli",
+    "network stats"
+  ]
 }
