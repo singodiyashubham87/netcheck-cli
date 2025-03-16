@@ -4,7 +4,7 @@ A CLI tool to check network stats.
 
 ## Installation
 ```bash
-npm install -g netcheck
+npm install -g netcheck-cli
 ```
 ## Usage
 
