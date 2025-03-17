@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.0.0] - Major Release
+#### Changed
+- Updated package version to avoid conflicts with existing package while publishing
+
 ## [2.2.0] - Minor Release
 #### Changed
 - Updated email in package.json file
