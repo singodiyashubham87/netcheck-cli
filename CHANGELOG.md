@@ -1,5 +1,9 @@
 # Changelog
 
+## [3.0.1] - Documentation
+#### Changed
+- Updated README to explain working of the command with & without -v(verbose) flag using comments.
+
 ## [3.0.0] - Major Release
 #### Changed
 - Updated package version to avoid conflicts with existing package while publishing
