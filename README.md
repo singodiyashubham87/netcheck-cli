@@ -19,7 +19,12 @@ Options:
 
 ## Example
 ```bash
+netcheck
+# Runs a basic network check for speed, latency, jitter, and packet loss.
+```
+```bash
 netcheck -v
+# Runs a detailed network check with verbose output.
 ```
 
 ## Author
